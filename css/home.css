@@ -1,0 +1,227 @@
+.h1-primary{
+	/** <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+
+font-family: 'DM Serif Text', serif;
+ **/
+font-family: 'DM Serif Text', serif;
+font-size: 44px;
+text-align: center;
+}
+.h2-primary{
+font-size: 25px;
+text-align: center;
+}
+.btn{
+	width: 120px;
+	position: absolute;
+	right: 33px;
+	top: 22px;
+	background-color: black;
+	border: 4px solid white;
+	border-radius: 22px;
+}
+.btn a{
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 12px;
+    padding: 7px 12px;
+    border-radius: 17px;
+    color: white;
+    width: 88px;
+    transition: all;
+    transition-duration: 1s;
+}
+.btn a:hover{
+	background-color: yellow;
+	color: black;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/** footer **/
+.center{
+	font-weight: bold;
+    font-size: 22px;
+    color: inherit;
+    background-color: burlywood;
+    text-align: center;
+    padding: 22px;
+    text-align: center;
+}
+/** Client Section **/
+#client-section{
+	background-color: #342e2e;
+}
+#client-items{
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	border:3px solid sandybrown;
+	padding: 22px 0px;
+	background: url("img/mask.jpg");
+}
+#client-items .items{
+	height: 200px;
+	width: 200px;
+}
+#client-items #box1{
+	background-color: red;
+}
+#client-section h1{
+	color: white;
+}
+/**  Service Box **/
+#service-box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+/** Service Container **/
+#service-container::before{
+	content: "";
+ 
+    background-color: #501717;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+#service-container{
+
+}
+#service-container .box img{
+    width: 302px;
+        padding-bottom: 2px;
+        border-radius: 22px;
+display: block;
+margin: 0px auto;
+
+padding: 12px auto;
+border-bottom-left-radius: 22px;
+border-bottom-right-radius: 22px;
+}
+
+#service-container .box{
+	height: 300px;
+	width: 400px;
+	border: 3px solid red;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 11px;
+	border-radius: 22px;
+	background-color:#1a766d82;
+	color: white;
+	transition: all;
+	transition-duration: 1s;
+
+}
+#service-container .box:hover{
+	background-color: #b8e7dd;
+	color: black;
+}
+#service-container h1{
+padding: 16px;
+    color: #f4f1f1;
+}
+.box h2{
+padding: 22px;
+}
+
+
+/** home **/
+#home>h1{
+	padding: 33px 3px;
+	    background:#11183f;
+	    color: #71e276;;
+}
+#home>p{
+}
+
+#home::before{
+		content: "";
+  background: url("../img/h.jpg")center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#home{
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+  margin: 0px auto;
+       height: 909px;
+    position: relative;
+}
+#home-content{
+
+}
+
+
+/** navbar **/
+
+#navbar::before{
+	content: "";
+  background-color:  #003e5a;
+  position: absolute;
+height: 102%;
+  width: 100%;
+  z-index: -1;
+
+  transition: all;
+      }
+      #navbar::before{
+      	background-color: 1s;
+      }
+#navbar {
+	display: flex;
+	position: sticky;
+    top: 0px;
+}
+#navbar>ul{
+	display: flex;
+}
+#navbar>ul>li{
+	list-style: none;
+    padding: 11px 22px;
+}
+
+/** navbar -a **/
+
+#navbar a{
+	text-decoration: none;
+    padding: 6px 33px;
+       font-size: 21px;
+       color: white;
+       transition: all;
+       transition-duration: 1s;
+}
+#navbar a:hover{
+	color: red;
+	background-color: yellow;
+	border-radius: 33px;
+}
+
+/** img **/
+#logo>img {
+    height: 34px;
+    width: 39px;
+    display: block;
+    margin: 3px auto;
+    border-radius: 91px;
+}
+#logo {
+    width: 47px;
+}

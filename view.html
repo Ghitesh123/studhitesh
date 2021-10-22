@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/jsp.css">
+   <link rel="stylesheet" type="text/css" href="css/phone.css">
+
+</head>
+
+<body>
+ <div id="view-container">
+ 	<div id="view1">
+    <div id="home-btn"><a href="index.html">Home</a></div>
+    <div id="back-btn"><a href="showviewB.html">back</a></div>
+ 	</div>
+ 	<div id="view2"> <h1>Student Data</h1></div>
+ 	<div id="view3">
+ 		<div id=view-box3>
+ <table>
+<thead>
+<tr><th>Roll-NO</th><th>Name</th><th>College</th><th>City</th><th>Mobile-NO</th>
+<th>Branch</th><th>Gender</th><th>Edit</th><th>Delete</th></tr>
+</thead>
+<tbody>
+<c:forEach var="std"  items="${eList}">
+<tr>
+<td>${std.getRollno()}</td>
+<td>${std.getName()}</td>
+<td>${std.getCollege()}</td>
+<td>${std.getCity()}</td>
+<td>${std.getMobileno()}</td>
+<td>${std.getGender()}</td>
+<td>${std.getBranch()}</td>
+<td><a href="success.html">Edit</a></td>
+<td><a href="delete.html">Delete</a></td>
+
+</tr>
+</c:forEach>
+</tbody>
+</table>
+ 		</div>
+ 	</div>
+ </div>
+</body>
+</html>

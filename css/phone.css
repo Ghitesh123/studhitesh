@@ -1,0 +1,102 @@
+body{
+	background-color: red;
+}
+#navbar {
+    
+    flex-direction: column;
+    background-color: gray;
+}
+#service-box{
+	flex-direction: column;
+}
+#client-items{
+    grid-template-columns: 1fr;
+    grid-row-gap: 17px;}
+    #navbar a{
+    	font-size: 33px;
+    }
+    #navbar>ul{
+    	flex-direction: column;
+    	    align-items: center;
+    }
+    #logo {
+    width: 100%;
+}
+#hbtn {
+    width: 13%;
+    padding: 12px;
+    margin: 0px auto;
+    bottom: -81%;
+    position: relative;
+}
+#hbtn a {
+    text-align: center;
+    display: block;
+    font-size: 31px;
+    text-align: center;
+    width: 82%;
+}
+.btn{
+	width: 100%;
+}
+
+#service-container .box {
+    height: 426px;
+    width: 70%;
+}
+    #service-container .box img {
+    width: 528px;}
+    
+    .h2-primary {
+    font-size: 30px;}
+
+#client-items .items {
+    
+    display: block;
+    height: 423px;
+    width: 65%;
+}
+#client-section {
+    background-color: black;
+    height: 1093px;
+}
+
+.items img{
+	display: block;
+    margin: 0px auto;
+    width: 374px;
+    border-radius: 83px;
+
+}
+#client-section {
+    background-color: black;
+    height: 1414px;
+}
+/***********************************login Containter **************************/
+#login-container {
+
+      grid-template-columns: none;
+  
+}
+.login-box{
+	font-size: 44px;
+}
+#lbox2 {
+    background-color: #FFDAB9;
+    height: 152%;
+}
+.form-grp #lbtn{
+	    font-size: 33px;
+}
+
+
+
+#sh-box2::before {
+    background-repeat: no-repeat;
+    position: inherit;
+}
+#sh-container {
+    grid-template-columns: 1fr;
+}
+#service-container::before{
+    height: 2756px;}
